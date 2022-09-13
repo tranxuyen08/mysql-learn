@@ -1,0 +1,2 @@
+INSERT INTO users(email, password, phone_number, dob, created_at, updated_at) VALUES('xuyentran1998@gmail.com', MD5('12345678'), '0123456789', '2022-08-09', 1663076426, 1663076426);
+INSERT INTO users(email, password, phone_number, dob, created_at, updated_at) VALUES('xuyen111@gmail.com', MD5('1111111'), '0123123123', '1998-06-08',1663076426, 1663076426);
