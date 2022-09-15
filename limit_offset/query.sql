@@ -1,0 +1,1 @@
+SELECT * FROM posts LIMIT 3 OFFSET 4;

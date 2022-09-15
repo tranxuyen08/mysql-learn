@@ -1,0 +1,20 @@
+1 Lấy số lượng bài viết
+count(*)
+2 Lấy những bài viết có point lớn hơn 2
+where point > 2
+3 Lấy 3 bài viết có điểm cao nhất
+ order by point, desc, limit 3
+4 Lấy tổng điểm của tất cả bài viết cho từng user
+sum, join user, group by user_id
+5 Lấy trung bình cộng của tất bài viết cho từng user
+avg, join user, group by user_id
+6 Lấy 3 user có trung bình cộng tổng bài viết theo thứ tự giảm dần
+join user, avg, desc, group by user_id, limit 3
+7 Lấy 3 user có nhiều bài viết nhất
+join user, count, group by, limit offset
+8 Lấy ra bài viết có điểm thấp nhất và thông tin của user
+join user, min
+9 Lấy ra bài viết và thông tin của user có điểm trung bình cộng thấp nhất
+join, avg, asc, limmit 1, group by
+10 Lấy ra thông tin của user có ít bài viết nhất
+join, count, asc , limmit 1, group by
